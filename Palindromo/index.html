@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserisci una parola</title>
+</head>
+    <body>
+        <h1>Inserisci una parola</h1>
+        <form onsubmit="checkPalindrome(event)">
+            <label for="parola">Parola:</label>
+            <input type="text" id="parola" name="parola" required>
+            <button type="submit">Invia</button>
+        </form>
+        <p id="risultato"></p>
+        <script src="./js/script.js"></script>
+    </body>
+    </html>
