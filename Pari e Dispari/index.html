@@ -6,19 +6,19 @@
     <title>Pari o Dispari</title>
 </head>
 <body>
-    <h1>Pari o Dispari</h1>
-    <label for="scelta">Scegli Pari o Dispari:</label>
-    <select id="scelta">
+    <h1>Gioco Pari o Dispari</h1>
+    <label for="scegli">Scegli Pari o Dispari:</label>
+    <select id="scegli">
         <option value="pari">Pari</option>
         <option value="dispari">Dispari</option>
     </select>
     <br><br>
-    <label for="inserisci">Inserisci un numero da 1 a 5:</label>
-    <input type="number" id="inserisci" min="1" max="5">
+    <label for="numeroUtente">Inserisci un numero da 1 a 5:</label>
+    <input type="number" id="numeroUtente" min="1" max="5">
     <br><br>
-    <button>Gioca</button>
+    <button onclick="gioco()">Gioca</button>
     <br><br>
-    <div id="risultato"></div>
+    <div id="esito"></div>
     
     <script src="./js/script.js"></script>
 </body>
